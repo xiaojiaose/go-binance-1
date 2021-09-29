@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="425fd0ed-b604-4cbb-8586-b37e0f648231" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/go-binance-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/cov_report.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/bypass.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/bypasssafe.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/common_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/dump.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/dump_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/dumpcgo_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/dumpnocgo_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/format.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/format_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/internal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/internalunsafe_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/spew.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/spew_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/spew/testdata/dumpcgo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/davecgh/go-spew/test_coverage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/ROADMAP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/auth/basic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/auth/basic/middleware.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/auth/basic/middleware_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/auth/jwt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/auth/jwt/middleware.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/auth/jwt/middleware_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/auth/jwt/transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/auth/jwt/transport_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/circle.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/circuitbreaker/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/circuitbreaker/gobreaker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/circuitbreaker/gobreaker_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/circuitbreaker/handy_breaker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/circuitbreaker/handy_breaker_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/circuitbreaker/hystrix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/circuitbreaker/hystrix_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/circuitbreaker/util_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/coveralls.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/docker-compose-integration.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/endpoint/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/endpoint/endpoint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/endpoint/endpoint_example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/cmd/addcli/addcli.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/cmd/addsvc/addsvc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/cmd/addsvc/pact_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/cmd/addsvc/wiring_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pb/addsvc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pb/addsvc.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pb/compile.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addendpoint/middleware.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addendpoint/set.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addservice/middleware.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addservice/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addtransport/grpc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addtransport/http.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/pkg/addtransport/thrift.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/thrift/addsvc.thrift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/thrift/compile.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc/GoUnusedProtection__.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc/add_service-remote/add_service-remote.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc/addsvc-consts.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc/addsvc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/apigateway/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/profilesvc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/profilesvc/client/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/profilesvc/cmd/profilesvc/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/profilesvc/endpoints.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/profilesvc/middlewares.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/profilesvc/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/profilesvc/transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/booking/endpoint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/booking/instrumenting.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/booking/logging.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/booking/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/booking/transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/cargo/cargo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/cargo/delivery.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/cargo/handling.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/cargo/itinerary.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/handling/endpoint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/handling/instrumenting.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/handling/logging.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/handling/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/handling/transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/inmem/inmem.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/inspection/inspection.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/location/location.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/location/sample_locations.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/routing/proxying.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/routing/routing.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/tracking/endpoint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/tracking/instrumenting.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/tracking/logging.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/tracking/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/tracking/transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/voyage/sample_voyages.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/shipping/voyage/voyage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc1/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc2/instrumenting.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc2/logging.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc2/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc2/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc2/transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc3/instrumenting.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc3/logging.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc3/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc3/proxying.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc3/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/examples/stringsvc3/transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/lint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/benchmark_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/concurrency_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/deprecated_levels/levels.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/deprecated_levels/levels_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/json_logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/json_logger_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/level/benchmark_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/level/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/level/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/level/level.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/level/level_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/log_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/logfmt_logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/logfmt_logger_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/nop_logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/nop_logger_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/stdlib.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/stdlib_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/sync.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/sync_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/colorlogger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/colorlogger_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/colorwriter_others.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/colorwriter_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/term.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/terminal_appengine.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/terminal_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/terminal_freebsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/terminal_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/terminal_notwindows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/terminal_openbsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/terminal_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/term/terminal_windows_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/value.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/log/value_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/cloudwatch/cloudwatch.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/cloudwatch/cloudwatch_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/debug.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/discard/discard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/dogstatsd/dogstatsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/dogstatsd/dogstatsd_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/expvar/expvar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/expvar/expvar_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/generic/generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/generic/generic_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/graphite/graphite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/graphite/graphite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/influx/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/influx/influx.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/influx/influx_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/internal/lv/labelvalues.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/internal/lv/labelvalues_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/internal/lv/space.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/internal/lv/space_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/internal/ratemap/ratemap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/metrics.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/multi/multi.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/multi/multi_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/pcp/pcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/pcp/pcp_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/prometheus/prometheus.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/prometheus/prometheus_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/provider/discard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/provider/dogstatsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/provider/expvar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/provider/graphite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/provider/influx.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/provider/prometheus.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/provider/provider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/provider/statsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/statsd/statsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/statsd/statsd_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/teststat/buffers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/teststat/populate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/teststat/teststat.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/timer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/metrics/timer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/ratelimit/token_bucket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/ratelimit/token_bucket_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/benchmark_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/consul/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/consul/client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/consul/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/consul/instancer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/consul/instancer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/consul/integration_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/consul/registrar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/consul/registrar_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/dnssrv/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/dnssrv/instancer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/dnssrv/instancer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/dnssrv/lookup.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/endpoint_cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/endpoint_cache_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/endpointer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/endpointer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/etcd/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/etcd/client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/etcd/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/etcd/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/etcd/instancer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/etcd/instancer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/etcd/integration_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/etcd/registrar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/etcd/registrar_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/eureka/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/eureka/instancer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/eureka/instancer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/eureka/integration_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/eureka/registrar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/eureka/registrar_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/eureka/util_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/factory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/instancer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/internal/instance/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/internal/instance/cache_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/lb/balancer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/lb/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/lb/random.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/lb/random_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/lb/retry.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/lb/retry_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/lb/round_robin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/lb/round_robin_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/registrar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/zk/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/zk/client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/zk/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/zk/instancer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/zk/instancer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/zk/integration_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/zk/logwrapper.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/zk/registrar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/sd/zk/util_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/opentracing/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/opentracing/endpoint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/opentracing/endpoint_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/opentracing/grpc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/opentracing/grpc_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/opentracing/http.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/opentracing/http_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/tracing/zipkin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test/context_metadata.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test/pb/generate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test/pb/test.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test/pb/test.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test/request_response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/_grpc_test/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/encode_decode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/request_response_funcs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/grpc/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/http/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/http/client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/http/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/http/encode_decode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/http/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/http/request_response_funcs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/http/request_response_funcs_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/http/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/http/server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/httprp/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/httprp/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/httprp/server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/netrpc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/transport/thrift/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/update_deps.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/util/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/util/conn/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/util/conn/manager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-kit/kit/util/conn/manager_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/decode-bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/decode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/decode_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/encode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/encode_internal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/encode_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/fuzz.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-logfmt/logfmt/jsonstring.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-stack/stack/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-stack/stack/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-stack/stack/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-stack/stack/format_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-stack/stack/stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-stack/stack/stack_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-stack/stack/stackinternal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_clone.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_clone_legacy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/compression.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/compression_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_broadcast_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_read.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_read_legacy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/autobahn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/autobahn/fuzzingclient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/autobahn/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/hub.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/command/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/command/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/command/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/echo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/echo/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/echo/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/filewatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/filewatch/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/json_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/mask.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/mask_safe.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/mask_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/prepared.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/prepared_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/util_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/logfmt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/logfmt/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/logfmt/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/logfmt/decode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/logfmt/decode_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/logfmt/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/logfmt/scanner.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/logfmt/scanner_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/logfmt/unquote.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/errors_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/format_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/stack_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pmezard/go-difflib/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pmezard/go-difflib/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pmezard/go-difflib/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pmezard/go-difflib/difflib/difflib.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pmezard/go-difflib/difflib/difflib_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/accessors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/accessors_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/codegen/array-access.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/codegen/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/codegen/template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/codegen/types_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/constants.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/conversions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/conversions_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/fixture_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/map.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/map_for_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/map_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/mutations.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/mutations_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/security.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/security_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/simple_example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/tests.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/tests_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/type_specific_codegen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/type_specific_codegen_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/value.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/objx/value_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/Godeps/Godeps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/Godeps/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/LICENCE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/_codegen/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/assertion_forward.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/assertion_forward.go.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/assertions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/assertions_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/forward_assertions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/forward_assertions_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/http_assertions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/assert/http_assertions_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/http/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/http/test_response_writer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/http/test_round_tripper.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/mock/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/mock/mock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/mock/mock_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/package_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/require/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/require/forward_requirements.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/require/forward_requirements_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/require/require.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/require/require.go.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/require/require_forward.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/require/require_forward.go.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/require/requirements.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/require/requirements_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/suite/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/suite/interfaces.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/suite/suite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/stretchr/testify/suite/suite_test.go" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_account.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#17#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_def.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#17#155#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binance.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1487">
+              <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+              <folding>
+                <element signature="e#17#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.6/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="303" />
+    <option name="y" value="23" />
+    <option name="width" value="1631" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go-binance-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-binance-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-binance-1" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/example/main.go" />
+      <package value="go-binance-1" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="303" y="23" width="1631" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984267" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.cn,https://goproxy.io,direct</proxy>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/service_account.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_def.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binance.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1487">
+          <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+          <folding>
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
